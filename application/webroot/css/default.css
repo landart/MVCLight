@@ -1,0 +1,79 @@
+/**
+ * MVCLight
+ *
+ * An open source application development framework for PHP
+ *
+ * @package		MVCLight
+ * @author		Jorge Albaladejo Pomares
+ * @copyright	Copyright (c) 2011, Jorge Albaladejo Pomares
+ * @license		http://jorgealbaladejo.com/portfolio/MVCLight/license.txt
+ * @link		http://jorgealbaladejo.com/MVCLight
+ * @since		Version 0.1a
+ * @filesource
+ */
+
+/**
+ * application/webroot/css/default.css
+ * 
+ * Demo application basic CSS definitions
+ * 
+ */
+body 
+{
+    background: #fefedd;
+    color: #050505;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    line-height: 2em;
+}
+body, h1, h2, h3, h4, h5, h6, p
+{
+    margin:0;
+}
+body p
+{
+	margin: 5px 0;
+}
+div.container
+{
+    width: 900px;
+    margin: 0px auto;
+    border: 1px solid #555;
+    border-top: 0px;
+    background: #fefefe;
+    padding: 10px;
+}
+div.container h1
+{
+    margin: 10px 0 20px 0;
+}
+body pre
+{
+    font-size: 1.25em!important;
+    line-height: 1.2em;
+}
+body pre hr
+{
+    border: 1px solid #ccc;
+    height: 5px;
+    background: #eee;
+}
+div.container div#ajaxPanel
+{
+    float: right;
+    width: 450px;
+    height: 450px;
+    overflow: auto;
+    border: 1px dotted #ccc;
+    background: #f9f9f9;
+    padding: 0 10px;
+	font-size: .9em;
+}
+div.container div#ajaxPanel:hover
+{
+    background: #fefedd;
+}
+div.clear
+{
+    clear: both;
+}
